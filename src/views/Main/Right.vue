@@ -2,8 +2,8 @@
   <div :class="store.mobileOpenState ? 'right' : 'right hidden'">
     <!-- 移动端 Logo -->
     <div class="logo text-hidden" @click="store.mobileFuncState = !store.mobileFuncState">
-      <span class="bg">{{ siteUrl[0] }}</span>
-      <span class="sm">.{{ siteUrl[1] }}</span>
+      <span class="sm">{{ siteUrl[0] }}</span>
+      <span class="bg">.{{ siteUrl[1] }}</span>
     </div>
     <!-- 功能区 -->
     <Func />
